@@ -11,12 +11,12 @@ public class ABIWindow : EditorWindow
     Vector2 TextArea;
 
     // Where is the window menu located
-    [MenuItem("Window/ChainSafe ABI Converter")]
+    [MenuItem("Window/ABI Converter")]
 
     // Show our window
     public static void ShowWindow ()
     {
-        GetWindow<ABIWindow>("ChainSafe ABI Converter");
+        GetWindow<ABIWindow>("ABI Converter");
     }
 
 
@@ -28,7 +28,7 @@ public class ABIWindow : EditorWindow
 
         // Window Header
         GUILayout.Space(10);
-        GUILayout.Label("<b><size=15>ChainSafe ABI Converter</size></b>", style);
+        GUILayout.Label("<b><size=15>Solidity ABI Converter</size></b>", style);
         GUILayout.Label("Copy/Paste is supported.", style);
         GUILayout.Space(10);
 
